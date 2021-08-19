@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="343" height="82" viewBox="0 0 343 82">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle" width="343" height="82" rx="6" fill="#314697"/>
+    </clipPath>
+  </defs>
+  <g id="announcements" transform="translate(-1002 -38)">
+    <g id="Group_14" data-name="Group 14" transform="translate(1002 38)">
+      <g id="Group_22" data-name="Group 22">
+        <rect id="Rectangle-2" data-name="Rectangle" width="343" height="82" rx="6" fill="#314697"/>
+        <g id="Group_22-2" data-name="Group 22" clip-path="url(#clip-path)">
+          <g id="Group_4" data-name="Group 4" transform="translate(179 -23)">
+            <g id="bookmark" opacity="0.12">
+              <path id="Shape" d="M50.83,79.213,27.413,55.8,4,79.213A2.343,2.343,0,0,1,2.34,79.9,2.341,2.341,0,0,1,0,77.558V2.341A2.34,2.34,0,0,1,2.341,0H52.485a2.341,2.341,0,0,1,2.341,2.341V77.558a2.341,2.341,0,0,1-4,1.655Z" transform="translate(0.052)" fill="#fff"/>
+            </g>
+            <g id="bookmark-2" data-name="bookmark" transform="translate(98 66)" opacity="0.12">
+              <path id="Shape-2" data-name="Shape" d="M30.5,47.527l-14.05-14.05L2.4,47.527A1.4,1.4,0,0,1,0,46.535V1.4A1.405,1.405,0,0,1,1.4,0H31.491a1.405,1.405,0,0,1,1.4,1.4v45.13a1.4,1.4,0,0,1-2.4.993Z" transform="translate(0.031)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

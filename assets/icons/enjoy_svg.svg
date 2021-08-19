@@ -1,0 +1,17 @@
+<svg id="Enjoy" xmlns="http://www.w3.org/2000/svg" width="30" height="33.336" viewBox="0 0 30 33.336">
+  <g id="Components_Map_Pin_Small" data-name="Components/Map Pin/Small">
+    <path id="Combined_Shape" data-name="Combined Shape" d="M14.293,33.043,11.25,30H10A10,10,0,0,1,0,20V10A10,10,0,0,1,10,0H20A10,10,0,0,1,30,10V20A10,10,0,0,1,20,30H18.75l-3.043,3.043a1,1,0,0,1-1.414,0Z" fill="#7db2e1"/>
+    <g id="sun-umbrella" transform="translate(8 7)">
+      <path id="Shape" d="M.263,11.561a.45.45,0,0,1,.375-.818,7.8,7.8,0,0,0,5.094.215l-1.338-5a1.669,1.669,0,0,0-.572.571.452.452,0,0,1-.6.164,1.658,1.658,0,0,0-2.233.6.45.45,0,0,1-.819-.114A4.841,4.841,0,0,1,3.162,1.363l-.213-.8A.45.45,0,1,1,3.817.334l.214.8A4.84,4.84,0,0,1,9.526,4.668a.449.449,0,0,1-.639.515,1.66,1.66,0,0,0-2.236.592.451.451,0,0,1-.611.157,1.663,1.663,0,0,0-.777-.2l1.344,5.015c2.982-.778,6.007-1.952,8.58.053a.45.45,0,0,1-.554.71c-1.971-1.536-4.376-.829-6.953-.122a17.094,17.094,0,0,1-4.46.794A6.978,6.978,0,0,1,.263,11.561Z" transform="translate(0 3.18)" fill="#fff"/>
+      <path id="Path" d="M.45.9H.928a.45.45,0,0,0,0-.9H.45a.45.45,0,0,0,0,.9Z" transform="translate(8.109 3.179)" fill="#fff"/>
+      <path id="Shape-2" data-name="Shape" d="M0,1.512A1.512,1.512,0,1,1,1.512,3.024,1.514,1.514,0,0,1,0,1.512Z" transform="translate(10.22 2.116)" fill="#fff"/>
+      <path id="Path-2" data-name="Path" d="M.45,1.379A.45.45,0,0,0,.9.929V.45a.45.45,0,1,0-.9,0V.929A.45.45,0,0,0,.45,1.379Z" transform="translate(11.282)" fill="#fff"/>
+      <path id="Path-3" data-name="Path" d="M.47,1.107A.45.45,0,0,0,1.107.47L.768.132A.45.45,0,0,0,.132.768Z" transform="translate(9.034 0.931)" fill="#fff"/>
+      <path id="Path-4" data-name="Path" d="M.47.132.132.47a.45.45,0,0,0,.636.636L1.107.768A.45.45,0,0,0,.47.132Z" transform="translate(9.034 5.088)" fill="#fff"/>
+      <path id="Path-5" data-name="Path" d="M0,.45V.928a.45.45,0,1,0,.9,0V.45a.45.45,0,1,0-.9,0Z" transform="translate(11.282 5.879)" fill="#fff"/>
+      <path id="Path-6" data-name="Path" d="M.132.132a.45.45,0,0,0,0,.636l.338.338A.45.45,0,0,0,1.107.47L.768.132A.45.45,0,0,0,.132.132Z" transform="translate(13.191 5.088)" fill="#fff"/>
+      <path id="Path-7" data-name="Path" d="M0,.45A.45.45,0,0,0,.45.9H.928a.45.45,0,0,0,0-.9H.45A.45.45,0,0,0,0,.45Z" transform="translate(13.982 3.179)" fill="#fff"/>
+      <path id="Path-8" data-name="Path" d="M.768,1.107,1.107.768A.45.45,0,0,0,.47.132L.132.47a.45.45,0,0,0,.636.636Z" transform="translate(13.191 0.931)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

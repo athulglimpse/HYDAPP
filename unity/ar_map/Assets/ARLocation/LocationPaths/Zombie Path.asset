@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c63d15506dd69f48a388fc9c4976162, type: 3}
+  m_Name: Zombie Path
+  m_EditorClassIdentifier: 
+  Locations:
+  - Latitude: -24.498792
+    Longitude: -47.868441
+    Altitude: -1.7
+    AltitudeMode: 0
+    Label: 
+  - Latitude: -24.49879
+    Longitude: -47.868519
+    Altitude: -1.7
+    AltitudeMode: 0
+    Label: 
+  - Latitude: -24.498812
+    Longitude: -47.868551
+    Altitude: -1.7
+    AltitudeMode: 0
+    Label: 
+  - Latitude: -24.498855
+    Longitude: -47.868552
+    Altitude: -1.7
+    AltitudeMode: 0
+    Label: 
+  - Latitude: -24.499042
+    Longitude: -47.868531
+    Altitude: -1.7
+    AltitudeMode: 0
+    Label: 
+  - Latitude: -24.499431
+    Longitude: -47.868492
+    Altitude: -1.7
+    AltitudeMode: 0
+    Label: 
+  - Latitude: -24.499999
+    Longitude: -47.868436
+    Altitude: -1.7
+    AltitudeMode: 0
+    Label: 
+  - Latitude: -24.50007
+    Longitude: -47.86842
+    Altitude: -1.7
+    AltitudeMode: 0
+    Label: 
+  - Latitude: -24.500104
+    Longitude: -47.868361
+    Altitude: -1.7
+    AltitudeMode: 0
+    Label: 
+  - Latitude: -24.500105
+    Longitude: -47.868224
+    Altitude: -1.7
+    AltitudeMode: 0
+    Label: 
+  SplineType: 0
+  Alpha: 1
+  SceneViewScale: 0.7679688

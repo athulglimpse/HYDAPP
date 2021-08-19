@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="24px" viewBox="0 0 17 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>ic_location_on_48px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MV-Design-System" transform="translate(-2465.000000, -4022.000000)" fill="#429C9B" fill-rule="nonzero">
+            <g id="Group-27" transform="translate(2303.000000, 3936.000000)">
+                <g id="ic_location_on_48px" transform="translate(162.000000, 86.000000)">
+                    <path d="M8.3999995,0 C3.76199978,0 0,3.76199978 0,8.3999995 C0,14.6999991 8.3999995,24 8.3999995,24 C8.3999995,24 16.799999,14.6999991 16.799999,8.3999995 C16.799999,3.76199978 13.0379992,0 8.3999995,0 Z M8.39999968,11.3999997 C6.7439996,11.3999997 5.39999968,10.0559994 5.39999968,8.39999968 C5.39999968,6.7439996 6.7439996,5.39999968 8.39999968,5.39999968 C10.0559994,5.39999968 11.3999997,6.7439996 11.3999997,8.39999968 C11.3999997,10.0559994 10.0559994,11.3999997 8.39999968,11.3999997 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

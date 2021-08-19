@@ -1,0 +1,8 @@
+const MY_COMMUNITY_TYPE_PHOTO = 'photo';
+const MY_COMMUNITY_TYPE_REVIEW = 'review';
+const MY_COMMUNITY_STATUS_PENDING = 'pending';
+const MY_COMMUNITY_STATUS_POSTED = 'posted';
+const MY_COMMUNITY_STATUS_APPROVED= 'approved';
+const MY_COMMUNITY_STATUS_DRAFT= 'draft';
+const MY_COMMUNITY_STATUS_REJECTED = 'rejected';
+

@@ -1,0 +1,14 @@
+[
+  {
+    "code": "EN",
+    "country_code": "US",
+    "name": "English",
+    "image": "en_flag"
+  },
+  {
+    "code": "AR",
+    "country_code": "AE",
+    "name": "عربي",
+    "image": "ar_flag"
+  }
+]

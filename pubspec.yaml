@@ -1,0 +1,207 @@
+name: marvista
+description: Mar Vista UAE
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^7.0.1
+  get_it: ^7.2.0
+
+  # Common
+  equatable: ^2.0.3
+  json_serializable: ^5.0.0
+  json_annotation: ^4.1.0
+  shared_preferences: ^2.0.6
+  collection: ^1.15.0 #->Change
+  timeago: ^3.1.0
+  jiffy: ^4.1.0 #^3.0.1 ->Change
+  dartz: ^0.9.1
+  meta: ^1.7.0
+  after_layout: ^1.1.0
+
+  # Network
+  dio: ^4.0.0 #^3.0.9 #->Change
+  retrofit: ^2.0.0
+
+  # UI
+  flutter_unity_widget: ^4.2.1
+  cupertino_icons: ^1.0.3
+  font_awesome_flutter: ^9.1.0
+  sliding_up_panel: ^2.0.0+1
+  flutter_svg: ^0.22.0 #^0.19.1
+  percent_indicator: ^3.0.1
+  pin_code_fields: ^7.2.0
+  transparent_image: ^2.0.0
+  progress_dialog: ^1.2.4
+  pull_to_refresh: ^2.0.0
+  fluttertoast: ^8.0.7
+  country_list_pick: ^1.0.1+4
+  extended_image: ^4.1.0 #1.3.0 #->Change
+  carousel_slider: ^4.0.0
+  shimmer: ^2.0.0
+  flutter_typeahead: ^3.2.0
+  flutter_widget_from_html_core: ^0.6.1+3
+
+  # Features
+  package_info: ^2.0.2
+  encrypt: ^5.0.0 #4.0.2
+  crypto: ^3.0.1
+  device_info: ^2.0.2 #0.4.2+7 #->Change
+  data_connection_checker: ^0.3.4
+  hive: ^2.0.4
+  easy_localization: ^3.0.0 #^2.3.2 #->Change
+  add_2_calendar:
+    git: https://github.com/asiadigitalhub/add_2_calendar
+  url_launcher: ^6.0.9 #^5.7.10 #->Change
+  map_launcher: ^2.1.1
+  share: ^2.0.4
+  store_redirect: ^2.0.0
+  video_player: ^2.1.10
+  #  path_provider: ^2.0.2 #^1.6.24
+  location: ^4.3.0
+  location_platform_interface: ^2.3.0
+  geolocation: ^1.1.2
+  permission_handler: ^8.1.2 #^5.0.1+1
+  flutter_uploader: ^1.2.1
+  uni_links: ^0.5.1
+  heic_to_jpg: ^0.2.0
+
+#  webview_flutter: ^1.0.7
+  image_picker: ^0.8.2 #^0.6.7+21
+  flutter_absolute_path: ^1.0.6
+  multi_image_picker: ^4.8.1
+  flutter_local_notifications: ^6.0.0
+
+  # Features important
+  google_maps_flutter: ^2.0.6 #1.0.6 # Google Map Native
+  google_maps_cluster_manager: ^1.0.0
+
+  # Social
+  google_sign_in: ^5.0.4 #4.5.1
+  sign_in_with_apple: ^3.0.0
+  flutter_facebook_login: 3.0.0
+  flutter_facebook_auth: ^3.5.0
+
+  # Firebase
+  firebase_core: ^1.3.0 #^0.7.0 #->Change
+  firebase_auth: ^2.0.0 #^0.20.0+1 #->Change
+  firebase_remote_config: ^0.10.0+2 #^0.6.0 #->Change
+  firebase_messaging: ^10.0.3 #^8.0.0-dev.14 #->Change
+  firebase_crashlytics: ^2.0.7 # ^0.4.0+1 #->Change
+  firebase_analytics: ^8.1.2 #^7.0.1 #->Change
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+#  pedantic: ^1.9.2 # Analysis
+#  build_runner: ^1.10.0
+#  retrofit_generator: ^1.4.0+2
+#  mockito: ^4.1.3
+#  bloc_test: ^7.1.0
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons:
+  android: false
+  ios: true
+  image_path: "resources/icon512.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  fonts:
+    - family: Graphik
+      fonts:
+        - asset: assets/fonts/graphikblack.ttf
+          weight: 900
+        - asset: assets/fonts/graphikblackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/graphikbold.ttf
+          weight: 700
+        - asset: assets/fonts/graphikboldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/graphikextralight.ttf
+          weight: 200
+        - asset: assets/fonts/graphikextralightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/graphiklight.ttf
+          weight: 300
+        - asset: assets/fonts/graphiklightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/graphikmedium.ttf
+          weight: 500
+        - asset: assets/fonts/graphikmediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/graphikregular.ttf
+          weight: 400
+        - asset: assets/fonts/graphikregularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/graphiksemibold.ttf
+          weight: 600
+        - asset: assets/fonts/graphiksemiboldItalic.ttf
+          weight: 600
+          style: italic
+    - family: PublicoBanner
+      fonts:
+        - asset: assets/fonts/publicoBannerblack.ttf
+          weight: 900
+        - asset: assets/fonts/publicoBannerblackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/publicoBannerbold.ttf
+          weight: 700
+        - asset: assets/fonts/publicoBannerboldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/publicoBannerextrabold.ttf
+          weight: 800
+        - asset: assets/fonts/publicoBannerextraboldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/publicoBannerlight.ttf
+          weight: 300
+        - asset: assets/fonts/publicoBannerlightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/publicoBannermedium.ttf
+          weight: 500
+        - asset: assets/fonts/publicoBannermediumItalic.ttf
+          weight: 500
+          style: italic
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/icons/
+      #TODO: remove json test
+    - assets/json/interest.json
+    - assets/json/language.json
+    - assets/json/country.json
+    - res/langs/

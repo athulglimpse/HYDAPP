@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "256285981176",
+    "firebase_url": "https://marvista.firebaseio.com",
+    "project_id": "marvista",
+    "storage_bucket": "marvista.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256285981176:android:cadab88fc1e3b17c1ebe0d",
+        "android_client_info": {
+          "package_name": "com.modon.hudayriyatand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256285981176-oaj0g1jhnc08i26fn68g4kn8q2rrf604.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.modon.hudayriyatand",
+            "certificate_hash": "c9e261cb5f3424d09c9710cce28ede35fe793994"
+          }
+        },
+        {
+          "client_id": "256285981176-4882ktv9no6pduvjmatt3pi4b4q8ifm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqcnfPoimctKAVZAVj_CqwYBA4k4ZmfUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256285981176-4882ktv9no6pduvjmatt3pi4b4q8ifm7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "256285981176-nnu2nm30s5job7ub9tvvr8dinutl571s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sourcesage.marvista.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256285981176:android:327fda3953b0a0ff1ebe0d",
+        "android_client_info": {
+          "package_name": "com.sourcesage.marvista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256285981176-avd3rg02u7boj73nnpltlqdpll38gt2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sourcesage.marvista",
+            "certificate_hash": "73fc4e886884018909a0d93841663494a66d4bbe"
+          }
+        },
+        {
+          "client_id": "256285981176-4882ktv9no6pduvjmatt3pi4b4q8ifm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqcnfPoimctKAVZAVj_CqwYBA4k4ZmfUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256285981176-4882ktv9no6pduvjmatt3pi4b4q8ifm7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "256285981176-nnu2nm30s5job7ub9tvvr8dinutl571s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sourcesage.marvista.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256285981176:android:fe825a28b4a8d1191ebe0d",
+        "android_client_info": {
+          "package_name": "com.sourcesage.marvista.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256285981176-s1a5sasn67068spulvuko5q5vu198qmb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sourcesage.marvista.dev",
+            "certificate_hash": "c9e261cb5f3424d09c9710cce28ede35fe793994"
+          }
+        },
+        {
+          "client_id": "256285981176-4882ktv9no6pduvjmatt3pi4b4q8ifm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqcnfPoimctKAVZAVj_CqwYBA4k4ZmfUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256285981176-4882ktv9no6pduvjmatt3pi4b4q8ifm7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "256285981176-nnu2nm30s5job7ub9tvvr8dinutl571s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sourcesage.marvista.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

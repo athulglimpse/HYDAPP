@@ -1,0 +1,9 @@
+$ROOT
+cd android
+cd fastlane
+bundle exec fastlane test
+cd ../
+cd ../
+cd ios
+cd fastlane
+bundle exec fastlane test

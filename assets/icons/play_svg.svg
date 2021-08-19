@@ -1,0 +1,8 @@
+<svg id="Play" xmlns="http://www.w3.org/2000/svg" width="30" height="33.336" viewBox="0 0 30 33.336">
+  <g id="Components_Map_Pin_Small" data-name="Components/Map Pin/Small">
+    <path id="Combined_Shape" data-name="Combined Shape" d="M14.293,33.043,11.25,30H10A10,10,0,0,1,0,20V10A10,10,0,0,1,10,0H20A10,10,0,0,1,30,10V20A10,10,0,0,1,20,30H18.75l-3.043,3.043a1,1,0,0,1-1.414,0Z" fill="#7db2e1"/>
+    <g id="basketball" transform="translate(7.5 7)">
+      <path id="Shape" d="M2.211,13.149A7.735,7.735,0,0,1,13.149,2.211,7.74,7.74,0,0,1,7.581,15.36,7.552,7.552,0,0,1,2.211,13.149Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

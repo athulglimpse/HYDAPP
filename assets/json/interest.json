@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Badminton",
+    "image": "https://increasify.com.au/wp-content/uploads/2016/08/default-image.png"
+  },
+  {
+    "id": 2,
+    "name": "Volleyball",
+    "image": "https://increasify.com.au/wp-content/uploads/2016/08/default-image.png"
+  },
+  {
+    "id": 3,
+    "name": "Public beach",
+    "image": "https://increasify.com.au/wp-content/uploads/2016/08/default-image.png"
+  },
+  {
+    "id": 4,
+    "name": "Retail",
+    "image": "https://increasify.com.au/wp-content/uploads/2016/08/default-image.png"
+  },
+  {
+    "id": 5,
+    "name": "Restaurants",
+    "image": "https://increasify.com.au/wp-content/uploads/2016/08/default-image.png"
+  },
+  {
+    "id": 6,
+    "name": "Outdoor gym",
+    "image": "https://increasify.com.au/wp-content/uploads/2016/08/default-image.png"
+  }
+]

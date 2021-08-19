@@ -1,0 +1,47 @@
+<svg id="Map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="343" height="224" viewBox="0 0 343 224">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="-0.005" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f7f9"/>
+      <stop offset="1" stop-color="#e4ebee"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle" width="343" height="175" rx="6" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="1" y1="0.5" x2="0" y2="0.478" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4f3f1"/>
+      <stop offset="1" stop-color="#e6e4de"/>
+    </linearGradient>
+    <filter id="Rectangle-2" x="142" y="160" width="60" height="35" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.012"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4" data-name="Group 4">
+    <rect id="Rectangle-3" data-name="Rectangle" width="343" height="175" rx="6" fill="url(#linear-gradient)"/>
+    <g id="Group_4-2" data-name="Group 4" clip-path="url(#clip-path)">
+      <g id="Group_11" data-name="Group 11" transform="translate(145 61)">
+        <circle id="Oval" cx="26.5" cy="26.5" r="26.5" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+  <g id="Group_3" data-name="Group 3" transform="translate(148 164)">
+    <g transform="matrix(1, 0, 0, 1, -148, -164)" filter="url(#Rectangle-2)">
+      <rect id="Rectangle-4" data-name="Rectangle" width="48" height="23" rx="11.5" transform="translate(148 164)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+  <text id="Starbucks_Coffee" data-name="Starbucks Coffee" transform="translate(0 202)" fill="#212237" font-size="14" font-family="Graphik-Medium, Graphik" font-weight="500"><tspan x="0" y="0">Starbucks Coffee</tspan></text>
+  <rect id="Rectangle-5" data-name="Rectangle" width="115" height="14" rx="2" transform="translate(0 191)" fill="url(#linear-gradient)"/>
+  <g id="Group_8" data-name="Group 8" transform="translate(132 211)">
+    <text id="_10_min" data-name="10 min" transform="translate(11 9)" fill="rgba(33,34,55,0.5)" font-size="12" font-family="Graphik-Regular, Graphik"><tspan x="0" y="0">10 min</tspan></text>
+    <g id="walk">
+      <path id="Path" d="M1.024,2.048A1.024,1.024,0,1,0,0,1.024,1.027,1.027,0,0,0,1.024,2.048Z" transform="translate(2.832)" fill="rgba(33,34,55,0.5)"/>
+      <path id="Path-2" data-name="Path" d="M6.656,3.584V2.56A2.625,2.625,0,0,1,4.429,1.306L3.942.486A1,1,0,0,0,3.072,0a1.027,1.027,0,0,0-.384.077L0,1.178V3.584H1.024V1.869l.9-.384L.512,8.7H1.587l.9-4.1,1.1,1.024V8.7H4.608V4.838l-1.05-1.05.307-1.536A3.573,3.573,0,0,0,6.656,3.584Z" transform="translate(0.016 2.304)" fill="rgba(33,34,55,0.5)"/>
+    </g>
+  </g>
+  <text id="_321_Sports_Village" data-name="321 Sports Village" transform="translate(0 220)" fill="rgba(33,34,55,0.5)" font-size="12" font-family="Graphik-Regular, Graphik"><tspan x="0" y="0">321 Sports Village</tspan></text>
+  <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="100" height="13" rx="2" transform="translate(0 211)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="49" height="13" rx="2" transform="translate(132 211)" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="Stay" xmlns="http://www.w3.org/2000/svg" width="30" height="33.336" viewBox="0 0 30 33.336">
+  <g id="Components_Map_Pin_Small" data-name="Components/Map Pin/Small">
+    <path id="Combined_Shape" data-name="Combined Shape" d="M14.293,33.043,11.25,30H10A10,10,0,0,1,0,20V10A10,10,0,0,1,10,0H20A10,10,0,0,1,30,10V20A10,10,0,0,1,20,30H18.75l-3.043,3.043a1,1,0,0,1-1.414,0Z" fill="#e75d52"/>
+    <g id="tent" transform="translate(8 7)">
+      <path id="Shape" d="M9.859,15.36H.455a.456.456,0,0,1-.4-.673l6.5-11.98L5.454.672a.455.455,0,1,1,.8-.434l.822,1.514L7.9.238a.455.455,0,1,1,.8.434l-1.1,2.035,6.5,11.98a.456.456,0,0,1-.4.673Z" transform="translate(0.004 0)" fill="#fff"/>
+      <path id="Path" d="M1.427,0H.455a.455.455,0,0,0,0,.911h.971a.455.455,0,0,0,0-.911Z" transform="translate(6.139 7.66)" fill="#fff"/>
+      <path id="Path-2" data-name="Path" d="M1.427,0H.455a.455.455,0,0,0,0,.911h.971a.455.455,0,0,0,0-.911Z" transform="translate(6.139 6.132)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

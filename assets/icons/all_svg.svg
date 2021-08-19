@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="33.336" viewBox="0 0 30 33.336">
+  <g id="Group_2" data-name="Group 2" transform="translate(-128 -311)">
+    <g id="Eat" transform="translate(128 311)">
+      <g id="Components_Map_Pin_Small" data-name="Components/Map Pin/Small">
+        <path id="Combined_Shape" data-name="Combined Shape" d="M14.293,33.043,11.25,30H10A10,10,0,0,1,0,20V10A10,10,0,0,1,10,0H20A10,10,0,0,1,30,10V20A10,10,0,0,1,20,30H18.75l-3.043,3.043a1,1,0,0,1-1.414,0Z" fill="#fbbc43"/>
+      </g>
+    </g>
+    <g id="Group_13" data-name="Group 13" transform="translate(133 316)">
+      <path id="Fill_37" data-name="Fill 37" d="M9.8,19.855A9.877,9.877,0,0,1,0,9.928,9.878,9.878,0,0,1,9.8,0a9.878,9.878,0,0,1,9.8,9.928A9.877,9.877,0,0,1,9.8,19.855ZM.963,10.408a8.973,8.973,0,0,0,2.742,6.012,8.758,8.758,0,0,0,12.2,0,8.976,8.976,0,0,0,2.743-6.012ZM16.334,3.881l-3.557,3.6A3.888,3.888,0,0,1,13.6,9.446h5.042a9.029,9.029,0,0,0-2.31-5.566ZM9.8,7A2.879,2.879,0,0,0,6.964,9.446h5.678A2.879,2.879,0,0,0,9.8,7ZM3.273,3.881A9.029,9.029,0,0,0,.963,9.446H6a3.888,3.888,0,0,1,.825-1.965ZM10.279.976v5.1a3.791,3.791,0,0,1,1.811.741l3.565-3.609A8.807,8.807,0,0,0,10.279.976Zm-.95,0A8.808,8.808,0,0,0,3.952,3.208L7.517,6.817a3.791,3.791,0,0,1,1.812-.741Z" transform="translate(0.239 0.093)" fill="#fff"/>
+      <path id="Fill_39" data-name="Fill 39" d="M0,.962H7.266V0H0Z" transform="translate(6.41 11.859)" fill="#fff"/>
+      <path id="Fill_41" data-name="Fill 41" d="M0,.962H3.99V0H0Z" transform="translate(8.047 14.169)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

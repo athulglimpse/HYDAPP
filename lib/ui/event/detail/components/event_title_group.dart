@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:marvista/common/dialog/event_time_dialog.dart';
 import 'package:marvista/data/model/open_time_model.dart';
-import 'package:permission_handler/permission_handler.dart';
+// import 'package:permission_handler/permission_handler.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../common/constants.dart';
@@ -604,23 +604,23 @@ class EventTitleGroup extends StatelessWidget {
   Future<void> onAddEventCalendar(
       OpenTimeModel openTimeModel, bool isAddAllCalender) async {
     if (Platform.isAndroid) {
-      final status = await Permission.calendar.status;
-      print(status);
-      if (status.isPermanentlyDenied ) {
-        await openAppSettings();
-        return;
-      } else if (status == null /*PermissionStatus.undetermined*/||status.isDenied) {
-        final statusRequest = await Permission.calendar.request();
-        if (statusRequest != PermissionStatus.granted) {
-          UIUtil.showToast(Lang.event_you_need_enable_calendar_in_setting.tr(),
-              backgroundColor: Colors.redAccent);
-          return;
-        }
-      } else if (status != PermissionStatus.granted) {
-        UIUtil.showToast(Lang.event_you_need_enable_calendar_in_setting.tr(),
-            backgroundColor: Colors.redAccent);
-        return;
-      }
+      // final status = await Permission.calendar.status;
+      // print(status);
+      // if (status.isPermanentlyDenied ) {
+      //   await openAppSettings();
+      //   return;
+      // } else if (status == null /*PermissionStatus.undetermined*/||status.isDenied) {
+      //   final statusRequest = await Permission.calendar.request();
+      //   if (statusRequest != PermissionStatus.granted) {
+      //     UIUtil.showToast(Lang.event_you_need_enable_calendar_in_setting.tr(),
+      //         backgroundColor: Colors.redAccent);
+      //     return;
+      //   }
+      // } else if (status != PermissionStatus.granted) {
+      //   UIUtil.showToast(Lang.event_you_need_enable_calendar_in_setting.tr(),
+      //       backgroundColor: Colors.redAccent);
+      //   return;
+      // }
     }
     final startDate = openTimeModel.date + ' ' + openTimeModel.openTime;
     final endDate = openTimeModel.date +

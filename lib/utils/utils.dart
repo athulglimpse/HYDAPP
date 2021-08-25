@@ -89,9 +89,11 @@ class Utils {
 
   //Encrypt data by Fernet
   static String encData(String str) {
-    final key = Key.fromUtf8(ENC_KEY);
 
-    final b64key = Key.fromUtf8(base64Url.encode(key.bytes));
+    final key = Key.fromUtf8(ENC_KEY);
+    print(key.bytes);
+    // final b64key = Key.fromUtf8(base64Url.encode(key.bytes));
+    final b64key = Key.fromBase64(ENC_KEY);
     // if you need to use the ttl feature, you'll need to use APIs in the algorithm itself
     final fernet = Fernet(b64key);
     final encrypter = Encrypter(fernet);

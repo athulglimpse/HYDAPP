@@ -238,6 +238,7 @@ class UIUtil {
         showDialogOpenSetting(context);
       }
     }
+
     return (status.isGranted || statuses[Permission.camera].isGranted ??
             false) &&
         (statusPhoto.isGranted || statuses[Permission.photos].isGranted ??
@@ -260,6 +261,7 @@ class UIUtil {
       }
     }
     return status.isGranted || statuses[Permission.camera].isGranted;
+
   }
 
   static void showDialogOpenSetting(BuildContext context) {

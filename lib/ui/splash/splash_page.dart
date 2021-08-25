@@ -50,6 +50,8 @@ class SplashScreenState extends BaseState<SplashScreen>
   }
 
   void initBasicInfo() {
+
+
     _splashBloc.listen((state) {
       if (state is Logged && state.userInfo != null) {
         if (!state.userInfo.isUser()) {

@@ -96,7 +96,8 @@ class FirebaseWrapper {
         idToken: googleAuth.idToken,
       );
       // Once signed in, return the UserCredential
-      final user = (await auth.signInWithCredential(credential)).user;
+      final User = await FirebaseAuth.instance.signInWithCredential(credential);
+      final user = User.user;
       final socialLoginData = SocialLoginData.copyWithGoogleData(
           id: user.uid, email: user.email, displayName: user.displayName);
       return Right(socialLoginData);
@@ -115,7 +116,7 @@ class FirebaseWrapper {
           FacebookAuthProvider.credential(result.accessToken.token);
       // Once signed in, return the UserCredential
       final userCredential =
-          await auth.signInWithCredential(facebookAuthCredential);
+          await FirebaseAuth.instance.signInWithCredential(facebookAuthCredential);
       final profile = userCredential.additionalUserInfo.profile;
       profile['id'] = userCredential.user.uid;
       final socialLoginData = SocialLoginData.copyWithFacebookData(profile);
@@ -132,7 +133,8 @@ class FirebaseWrapper {
       return await oauthCredResult.fold(
         (failure) => Left(failure),
         (oauthCred) async {
-          final user = (await auth.signInWithCredential(oauthCred)).user;
+          final User = await FirebaseAuth.instance.signInWithCredential(oauthCred);
+          final user = User.user;
           final socialLoginData = SocialLoginData.copyWithGoogleData(
               id: user.uid, email: user.email, displayName: user.displayName);
           return Right(socialLoginData);
@@ -173,7 +175,7 @@ class FirebaseWrapper {
         // The account already exists with a different credential
         final email = e.email;
         // Fetch a list of what sign-in methods exist for the conflicting user
-        final userSignInMethods = await auth.fetchSignInMethodsForEmail(email);
+        final userSignInMethods = await FirebaseAuth.instance.fetchSignInMethodsForEmail(email);
         // Since other providers are now external,
         // you must now sign the user in with another
         // auth provider, such as Facebook.
@@ -187,7 +189,7 @@ class FirebaseWrapper {
             accessToken: googleAuth.accessToken,
             idToken: googleAuth.idToken,
           );
-          final userCredential = await auth.signInWithCredential(credential);
+          final userCredential = await FirebaseAuth.instance.signInWithCredential(credential);
 
           return Right(SocialLoginData.copyWith(
               email: userCredential.user.email,
@@ -202,7 +204,7 @@ class FirebaseWrapper {
               FacebookAuthProvider.credential(accessToken);
           // Sign the user in with the credential
           final userCredential =
-              await auth.signInWithCredential(facebookAuthCredential);
+              await FirebaseAuth.instance.signInWithCredential(facebookAuthCredential);
           // Link the pending credential with the existing account
           return Right(SocialLoginData.copyWith(
               email: userCredential.user.email,
@@ -214,7 +216,7 @@ class FirebaseWrapper {
           return await oauthCredResult.fold(
             (failure) => Left(failure),
             (oauthCred) async {
-              final userCredential = await auth.signInWithCredential(oauthCred);
+              final userCredential = await FirebaseAuth.instance.signInWithCredential(oauthCred);
               final socialLoginData = SocialLoginData.copyWithGoogleData(
                   id: userCredential.user.uid,
                   email: userCredential.user.email,
@@ -237,7 +239,7 @@ class FirebaseWrapper {
     if (await GoogleSignIn().isSignedIn()) {
       await GoogleSignIn().signOut();
     }
-    await auth.signOut();
+    await FirebaseAuth.instance.signOut();
   }
 
   RemoteConfig getRemoteConfig() {

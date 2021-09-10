@@ -92,10 +92,11 @@ class Utils {
 
     final key = Key.fromUtf8(ENC_KEY);
     print(key.bytes);
-    // final b64key = Key.fromUtf8(base64Url.encode(key.bytes));
-    final b64key = Key.fromBase64(ENC_KEY);
+    final b64key = Key.fromUtf8(base64Url.encode(key.bytes));
+    // final b64key = Key.fromBase64(ENC_KEY);
     // if you need to use the ttl feature, you'll need to use APIs in the algorithm itself
-    final fernet = Fernet(b64key);
+    // final fernet = Fernet(b64key);
+    final fernet = Fernet(key);
     final encrypter = Encrypter(fernet);
     final encrypted = encrypter.encrypt(str);
     return encrypted.base64;
@@ -107,7 +108,8 @@ class Utils {
 
     final b64key = Key.fromUtf8(base64Url.encode(key.bytes));
     // if you need to use the ttl feature, you'll need to use APIs in the algorithm itself
-    final fernet = Fernet(b64key);
+    // final fernet = Fernet(b64key);
+    final fernet = Fernet(key);
     final encrypter = Encrypter(fernet);
     final decrypted = encrypter.decrypt(Encrypted.from64(str));
     return decrypted;

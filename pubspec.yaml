@@ -23,7 +23,7 @@ dependencies:
   # State Management
   flutter_bloc: ^7.0.1
   get_it: 7.0.0
-  rxdart: ^0.27.1
+  rxdart: ^0.27.1 #Invalid depfile: D:\Updot\asiadigitalteam-modon_mar_vista_flutter-fbcc2a36bdd4\.dart_tool\flutter_build\c90ac96104af0e4e7038ab9b2ae5e479\kernel_snapshot.d
 
   # Common
   equatable: ^2.0.3

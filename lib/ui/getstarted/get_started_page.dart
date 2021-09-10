@@ -150,6 +150,7 @@ class StartedScreenState extends BaseState<StartedScreen>
                             ),
                             MyTextView(
                                 onTap: () {
+                                  print("Guest");
                                   _pbLoading.show();
                                   _startedBloc.add(DoLoginAsGuest());
                                 },

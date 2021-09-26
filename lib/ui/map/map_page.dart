@@ -200,26 +200,28 @@ class _MapScreenState extends BaseState<MapScreen> with AfterLayoutMixin {
                                     ],
                                   ),
                                 ),
-                                GestureDetector(
-                                  onTap: () {
-                                    UIUtil.checkPermissionCamera(context)
-                                        .then((value) => {
-                                              if (value)
-                                                {
-                                                  NavigateUtil.openPage(context,
-                                                      UnityMapScreen.routeName)
-                                                }
-                                            });
-                                  },
-                                  child: Material(
-                                    color: Colors.black,
-                                    type: MaterialType.circle,
-                                    child: UIUtil.makeImageWidget(
-                                        Res.icon_ar_map,
-                                        width: sizeLargex,
-                                        height: sizeLargex),
-                                  ),
-                                ),
+
+                                ///Navigation to unity map
+                                // GestureDetector(
+                                //   onTap: () {
+                                //     UIUtil.checkPermissionCamera(context)
+                                //         .then((value) => {
+                                //               if (value)
+                                //                 {
+                                //                   NavigateUtil.openPage(context,
+                                //                       UnityMapScreen.routeName)
+                                //                 }
+                                //             });
+                                //   },
+                                //   child: Material(
+                                //     color: Colors.black,
+                                //     type: MaterialType.circle,
+                                //     child: UIUtil.makeImageWidget(
+                                //         Res.icon_ar_map,
+                                //         width: sizeLargex,
+                                //         height: sizeLargex),
+                                //   ),
+                                // ),
                               ],
                             ),
                           ),

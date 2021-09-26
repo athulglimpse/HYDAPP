@@ -8,7 +8,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:location/location.dart';
-import 'package:marvista/common/widget/my_button.dart';
 import 'package:marvista/common/widget/my_social_media.dart';
 import 'package:marvista/data/source/api_end_point.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
@@ -329,73 +328,74 @@ class _HomePageState extends BaseState<HomePage> with AfterLayoutMixin {
     }
     return Column(
       children: <Widget>[
-        if (state?.listTrending != null && state.listTrending.isNotEmpty)
-          TweenAnimationBuilder(
-              tween: Tween<Offset>(
-                  begin: const Offset(1, 0), end: const Offset(0, 0)),
-              duration: const Duration(milliseconds: 300),
-              curve: Curves.linear,
-              builder: (_, offset, __) {
-                return FractionalTranslation(
-                  translation: offset,
-                  child: ShortListAssets(
-                      onItemClick: openAssetDetail,
-                      onClickAll: onClickSeeAllList,
-                      title: Lang.home_trending_this_week.tr(),
-                      shortAssetType: ShortAssetType.SMALL_ETA,
-                      padding: const EdgeInsets.only(
-                          left: sizeSmallxxx,
-                          top: sizeLargexx,
-                          right: sizeSmallxxx),
-                      isShowAll: state.listTrending.length > 10,
-                      listActivities: (state?.listTrending ?? []).length > 10
-                          ? state.listTrending.sublist(0, 10)
-                          : state.listTrending),
-                );
-              }),
-        if (state?.listTopRate != null && state.listTopRate.isNotEmpty)
-          TweenAnimationBuilder(
-              tween: Tween<Offset>(
-                  begin: const Offset(1, 0), end: const Offset(0, 0)),
-              duration: const Duration(milliseconds: 300),
-              curve: Curves.linear,
-              builder: (_, offset, __) {
-                return ShortListAssets(
-                    onItemClick: openAssetDetail,
-                    onClickAll: () => onClickSeeAllGrid(ViewAssetType.TOP_RATE),
-                    title: Lang.home_top_rated.tr(),
-                    shortAssetType: ShortAssetType.SMALL_RATE,
-                    padding: const EdgeInsets.only(
-                        left: sizeSmallxxx,
-                        top: sizeLargexx,
-                        right: sizeSmallxxx),
-                    isShowAll: state.listTopRate.length > 10,
-                    listActivities: (state?.listTopRate ?? []).length > 10
-                        ? state.listTopRate.sublist(0, 10)
-                        : state?.listTopRate ?? []);
-              }),
-        if (state?.listMightLike != null && state.listMightLike.isNotEmpty)
-          TweenAnimationBuilder(
-              tween: Tween<Offset>(
-                  begin: const Offset(1, 0), end: const Offset(0, 0)),
-              duration: const Duration(milliseconds: 300),
-              curve: Curves.linear,
-              builder: (_, offset, __) {
-                return ShortListAssets(
-                    onItemClick: openAssetDetail,
-                    onClickAll: () =>
-                        onClickSeeAllGrid(ViewAssetType.MIGHT_LIKE),
-                    title: Lang.home_places_you_might_like.tr(),
-                    shortAssetType: ShortAssetType.NORMAL_ETA,
-                    padding: const EdgeInsets.only(
-                        left: sizeSmallxxx,
-                        top: sizeLargexx,
-                        right: sizeSmallxxx),
-                    isShowAll: state.listMightLike.length > 10,
-                    listActivities: (state?.listMightLike ?? []).length > 10
-                        ? state.listMightLike.sublist(0, 10)
-                        : (state?.listMightLike ?? []));
-              }),
+        ///top rated,top liked,top trending hide here
+        // if (state?.listTrending != null && state.listTrending.isNotEmpty)
+        //   TweenAnimationBuilder(
+        //       tween: Tween<Offset>(
+        //           begin: const Offset(1, 0), end: const Offset(0, 0)),
+        //       duration: const Duration(milliseconds: 300),
+        //       curve: Curves.linear,
+        //       builder: (_, offset, __) {
+        //         return FractionalTranslation(
+        //           translation: offset,
+        //           child: ShortListAssets(
+        //               onItemClick: openAssetDetail,
+        //               onClickAll: onClickSeeAllList,
+        //               title: Lang.home_trending_this_week.tr(),
+        //               shortAssetType: ShortAssetType.SMALL_ETA,
+        //               padding: const EdgeInsets.only(
+        //                   left: sizeSmallxxx,
+        //                   top: sizeLargexx,
+        //                   right: sizeSmallxxx),
+        //               isShowAll: state.listTrending.length > 10,
+        //               listActivities: (state?.listTrending ?? []).length > 10
+        //                   ? state.listTrending.sublist(0, 10)
+        //                   : state.listTrending),
+        //         );
+        //       }),
+        // if (state?.listTopRate != null && state.listTopRate.isNotEmpty)
+        //   TweenAnimationBuilder(
+        //       tween: Tween<Offset>(
+        //           begin: const Offset(1, 0), end: const Offset(0, 0)),
+        //       duration: const Duration(milliseconds: 300),
+        //       curve: Curves.linear,
+        //       builder: (_, offset, __) {
+        //         return ShortListAssets(
+        //             onItemClick: openAssetDetail,
+        //             onClickAll: () => onClickSeeAllGrid(ViewAssetType.TOP_RATE),
+        //             title: Lang.home_top_rated.tr(),
+        //             shortAssetType: ShortAssetType.SMALL_RATE,
+        //             padding: const EdgeInsets.only(
+        //                 left: sizeSmallxxx,
+        //                 top: sizeLargexx,
+        //                 right: sizeSmallxxx),
+        //             isShowAll: state.listTopRate.length > 10,
+        //             listActivities: (state?.listTopRate ?? []).length > 10
+        //                 ? state.listTopRate.sublist(0, 10)
+        //                 : state?.listTopRate ?? []);
+        //       }),
+        // if (state?.listMightLike != null && state.listMightLike.isNotEmpty)
+        //   TweenAnimationBuilder(
+        //       tween: Tween<Offset>(
+        //           begin: const Offset(1, 0), end: const Offset(0, 0)),
+        //       duration: const Duration(milliseconds: 300),
+        //       curve: Curves.linear,
+        //       builder: (_, offset, __) {
+        //         return ShortListAssets(
+        //             onItemClick: openAssetDetail,
+        //             onClickAll: () =>
+        //                 onClickSeeAllGrid(ViewAssetType.MIGHT_LIKE),
+        //             title: Lang.home_places_you_might_like.tr(),
+        //             shortAssetType: ShortAssetType.NORMAL_ETA,
+        //             padding: const EdgeInsets.only(
+        //                 left: sizeSmallxxx,
+        //                 top: sizeLargexx,
+        //                 right: sizeSmallxxx),
+        //             isShowAll: state.listMightLike.length > 10,
+        //             listActivities: (state?.listMightLike ?? []).length > 10
+        //                 ? state.listMightLike.sublist(0, 10)
+        //                 : (state?.listMightLike ?? []));
+        //       }),
         if (state?.listFacilities != null && state.listFacilities.isNotEmpty)
           TweenAnimationBuilder(
               tween: Tween<Offset>(
@@ -739,7 +739,8 @@ class _HomePageState extends BaseState<HomePage> with AfterLayoutMixin {
                         }
                       }),
                     ),
-                    if (!isMVP) activitiesAndCommunity(state),
+                    /// activities and community hide here
+                    // if (!isMVP) activitiesAndCommunity(state),
                     renderContentPage(state),
                     SizedBox(
                       height: bottomPadding + sizeImageNormalx,

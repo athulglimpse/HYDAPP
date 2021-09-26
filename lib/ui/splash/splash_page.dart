@@ -83,9 +83,9 @@ class SplashScreenState extends BaseState<SplashScreen>
       backgroundColor: Colors.white,
       body: Center(
           child: Image(
-        image: const AssetImage('assets/logo.png'),
-        width: _iconAnimation.value * 100,
-        height: _iconAnimation.value * 100,
+        image: const AssetImage('assets/updated_logo.png',),color: Colors.black,
+        width: _iconAnimation.value * 300,
+        height: _iconAnimation.value * 300,
       )),
     );
   }

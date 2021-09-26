@@ -29,7 +29,7 @@ class Repository {
             e?.response?.data is Map &&
             (e?.response?.data as Map).containsKey('message')) {
           mess = e?.response?.data['message'];
-          UIUtil.showToast(mess);
+          // UIUtil.showToast(mess);
         }
         return Left(
             RemoteDataFailure(errorCode: e.toString(), errorMessage: mess));

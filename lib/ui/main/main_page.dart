@@ -42,7 +42,8 @@ class MainScreenState extends BaseState<MainScreen> {
       HomePage(
         onClickSeeAllEvent: openEventPage,
       ),
-     MapScreen() ,
+     // MapScreen() ,
+      ComingSoonPage(),
       EventScreen(),
       ProfilePage()
     ]);

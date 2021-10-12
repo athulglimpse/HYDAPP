@@ -16,7 +16,10 @@
     "get_started": "ابدأ الآن",
     "already_have_an_account": "هل لديك حساب؟",
     "loading_please_wait": "جاري التحميل، يرجى الانتظار",
-    "login": "تسجيل الدخول"
+    "login": "تسجيل الدخول",
+    "one_destination": "موجهة واحدة",
+    "unlimited_experiences": "متجارب غير محدودة",
+    "hudayriyat_marvista": "مارفيستا الحديريات"
   },
   "forgot_password": {
     "forgot_password": "نسيت كلمة المرور",

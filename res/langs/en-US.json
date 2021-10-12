@@ -16,7 +16,10 @@
     "get_started": "GET STARTED",
     "already_have_an_account": "Already have an account? ",
     "loading_please_wait": "Please wait...",
-    "login": "Login"
+    "login": "Login",
+    "one_destination": "One Destination",
+    "unlimited_experiences": "Unlimited Experiences",
+    "hudayriyat_marvista": "Hudayriyat MarVista"
   },
   "forgot_password": {
     "forgot_password": "Forgot Password",

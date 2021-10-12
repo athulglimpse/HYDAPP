@@ -112,7 +112,7 @@ class StartedScreenState extends BaseState<StartedScreen>
                 },
                 itemBuilder: (context, index) {
                   return StartedItem(
-                      itemIntro: state.staticContent.staticData[index]);
+                      itemIntro: state.staticContent.staticData[index],index: index,);
                 },
               ),
               SafeArea(

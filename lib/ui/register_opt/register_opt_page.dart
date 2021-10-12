@@ -303,8 +303,7 @@ class _RegisterOptPageState extends BaseState<RegisterOptPage> {
                                         fit: BoxFit.fitWidth,
                                         child: MyTextView(
                                           textAlign: TextAlign.start,
-                                          text: Lang.login_sign_up_with_email
-                                              .tr(),
+                                          text: Lang.login_sign_up_with_email.tr(),
                                           textStyle: textSmallxxx.copyWith(
                                               color: Colors.white),
                                         ),

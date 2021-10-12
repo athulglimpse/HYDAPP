@@ -85,6 +85,9 @@ class Lang {
   static const enter_your_email_to_recover_the_account =
       'enter_your_email_to_recover_the_account';
   static const recover_your_account = 'recover_your_account';
+  static const started_item_1 = 'started.hudayriyat_marvista';
+  static const started_item_2 = 'started.one_destination';
+  static const started_item_3 = 'started.unlimited_experiences';
 
   ///Asset Detail
   static const asset_detail_location = 'asset_detail.location';
